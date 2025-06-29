@@ -1,0 +1,33 @@
+
+body {
+    background: linear-gradient(135deg, #2e004f, #b78fd6);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+#logo {
+    max-width: 120px;
+    margin: 15px 0;
+}
+.stats p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+button {
+    background: gold;
+    color: #2e004f;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}

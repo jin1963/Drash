@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G3X Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="logo" src="g3x_logo.png" alt="G3X Logo">
+        <h1>G3X Dashboard</h1>
+
+        <div class="stats">
+            <p>Total Staked: <span id="totalStaked">Loading...</span> G3X</p>
+            <p>Reward Pool: <span id="rewardPool">Loading...</span> G3X</p>
+            <p>Smart Contract: <a href="https://bscscan.com/address/0x2553674aE4ff730056DaA445Bf4e7d26cA31335A" target="_blank">View on BscScan</a></p>
+        </div>
+
+        <button onclick="window.location.href='https://jin1963.github.io/G3XABI/'">🚀 Back to Staking Portal</button>
+        <button onclick="window.location.href='https://jin1963.github.io/G3X/'">🏠 Back to Landing Page</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.5/dist/web3.min.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
